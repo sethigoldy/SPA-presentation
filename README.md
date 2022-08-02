@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# React Real-Time Chat App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <img src="http://git-assets.react-starter-kit.com/logo.png">  
+</p>
 
-## Available Scripts
+### [Online Demo](https://react-chatapp-frontend.herokuapp.com)
 
-In the project directory, you can run:
+As the Demo is hosted on a free Heroku account, the servers its hosted on enter ‘sleep mode’ when not in use. If you notice a delay, please allow a few seconds for the servers to wake up.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### About:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a real-time chat application built using React (Create React App on the frontend) and NodeJS/Express/Socket.io Backend.
 
-### `npm test`
+Users are able to join groups and message other users in real-time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack:
 
-### `npm run build`
+* NodeJS/Express
+* SOCKET.IO
+* React (Create React App)
+* React Router 4
+* Moment JS
+* SASS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Screenshot
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="center">
+    <img src="http://git-assets.react-starter-kit.com/react_chat_app.png">  
+</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Software 
 
-### `npm run eject`
+Before proceeding, please ensure you have the following software installed on your computer.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Node
+* Yarn (optional but recommended)
+* Git command line tools
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Useful links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Download Git CLT - Windows: https://git-scm.com/download/windows Mac: https://git-scm.com/download/mac
+* Download Node - https://nodejs.org/en/
+* Download Yarn CLT - https://yarnpkg.com/lang/en/docs/install/
+* Download VSCode - https://code.visualstudio.com/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting started
 
-## Learn More
+Please fork a copy of this repository. Forking a repository allows you to freely experiment with changes without affecting the original project. Alternatively download or clone the master branch.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Download & Install Dependencies on your machine 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the repo to your machine 
 
-### Code Splitting
+```
+git clone <CloneURL>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Lunch the backend
 
-### Analyzing the Bundle Size
+1)	Within terminal or cmd ensure you have navigated inside the 'Backend' directory and installed the dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+cd <../path/to/Backend> 
+yarn install OR npm install
+```
 
-### Making a Progressive Web App
+2) Run the start script
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+``` 
+yarn run start OR npm run start
+```
 
-### Advanced Configuration
+### Lunch the frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1) Open a new terminal window and navigate inside the 'Frontend' folder as you will need to keep the backend running in the background
 
-### Deployment
+```
+cd <../path/to/Frontend> 
+yarn install OR npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2) Run the start script
 
-### `npm run build` fails to minify
+``` 
+yarn run start OR npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Your app should be running on: http://localhost:3000
