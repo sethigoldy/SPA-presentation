@@ -3,6 +3,6 @@
     "frontend": "cd frontend && npm start",
     "api": "cd backend && nodemon server/index.js",
     "dev": "concurrently --kill-others-on-fail \"npm run api\" \"npm run frontend\"",
-    "heroku-postbuild": "cd frontend && npm install && npm run build",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
   }
 }
