@@ -3,7 +3,7 @@ import { ChannelList } from './ChannelList';
 import './chat.css';
 import { MessagesPanel } from './MessagesPanel';
 import socketClient from "socket.io-client";
-const SERVER = "http://presentation-demo.subnet12112253.vcn12112253.oraclevcn.com:8080";
+const SERVER = "http://144.24.103.46:8080";
 export class Chat extends React.Component {
 
     state = {
