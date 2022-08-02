@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import io from 'socket.io-client';
-import ActiveUsers from './../components/activeUsers';
-import Messages from './../components/messages';
+import ActiveUsers from '../components/activeUsers';
+import Messages from '../components/messages';
 import moment from 'moment';
 import LoadingScreen from 'react-loading-screen';
 
